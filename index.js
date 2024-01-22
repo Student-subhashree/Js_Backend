@@ -21,6 +21,9 @@ app.get('/login',(req,res)=>{
 app.get('/youtube',(req,res)=>{
   res.send('<h2>Welcome to my youtube channel subha_life</h2>')
 })
+app.get('/instagram',(req,res)=>{
+  res.send('<h2>Thank you for your support</h2>')
+})
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
